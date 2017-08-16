@@ -1,0 +1,143 @@
+{
+  "id": "ae652372-71cd-48fb-bd01-012ed705bc77",
+  "name": "topic",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "technology",
+      "synonyms": [
+        "technology",
+        "tech"
+      ]
+    },
+    {
+      "value": "sports",
+      "synonyms": [
+        "sports"
+      ]
+    },
+    {
+      "value": "music",
+      "synonyms": [
+        "music"
+      ]
+    },
+    {
+      "value": "fashion",
+      "synonyms": [
+        "fashion"
+      ]
+    },
+    {
+      "value": "business",
+      "synonyms": [
+        "business"
+      ]
+    },
+    {
+      "value": "crime",
+      "synonyms": [
+        "crime"
+      ]
+    },
+    {
+      "value": "game",
+      "synonyms": [
+        "game"
+      ]
+    },
+    {
+      "value": "arts",
+      "synonyms": [
+        "arts"
+      ]
+    },
+    {
+      "value": "space",
+      "synonyms": [
+        "space"
+      ]
+    },
+    {
+      "value": "political",
+      "synonyms": [
+        "political"
+      ]
+    },
+    {
+      "value": "science",
+      "synonyms": [
+        "science"
+      ]
+    },
+    {
+      "value": "education",
+      "synonyms": [
+        "education"
+      ]
+    },
+    {
+      "value": "hockey",
+      "synonyms": [
+        "hockey"
+      ]
+    },
+    {
+      "value": "world politics",
+      "synonyms": [
+        "world politics"
+      ]
+    },
+    {
+      "value": "world",
+      "synonyms": [
+        "world"
+      ]
+    },
+    {
+      "value": "local",
+      "synonyms": [
+        "local"
+      ]
+    },
+    {
+      "value": "international",
+      "synonyms": [
+        "international"
+      ]
+    },
+    {
+      "value": "consulting",
+      "synonyms": [
+        "consulting"
+      ]
+    },
+    {
+      "value": "finance",
+      "synonyms": [
+        "finance"
+      ]
+    },
+    {
+      "value": "football",
+      "synonyms": [
+        "football"
+      ]
+    },
+    {
+      "value": "politics",
+      "synonyms": [
+        "politics"
+      ]
+    },
+    {
+      "value": "Banking",
+      "synonyms": [
+        "Banking",
+        "A banking system is a group or network of institutions that provide financial services for us. These institutions are responsible for operating a payment system, providing loans, taking deposits, and helping with investments."
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

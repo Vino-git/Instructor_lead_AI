@@ -1,0 +1,86 @@
+{
+  "userSays": [
+    {
+      "id": "c71575eb-45af-41c8-b6c3-f653ab6094aa",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f25c0fdc-b8b4-45b9-a209-f3064c70e5bc",
+      "data": [
+        {
+          "text": "hi there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "585b9d07-5653-45ce-97bb-7d40fbdd5bff",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "df526b4b-1ac3-41cf-84bb-4406a3ed48fe",
+  "name": "article.open",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Continues_banking",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "Plastic_cards",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "financial_service",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hi, I specialist in cards \u0026 payment. You can ask me any questions related to banking, plastic cards, financial services and payment system.\n\nWhile i am explaining any of your\u0027s selected topics, you can interrupt me by saying \"question\", so i can stop and clarify your queries.\n\nChoose your topics by sending me the respective topic number,\n1. Banking\n2. Plastic Cards\n3. Financial Service"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "skype": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "SKYPE_WELCOME"
+    },
+    {
+      "name": "Hi"
+    },
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

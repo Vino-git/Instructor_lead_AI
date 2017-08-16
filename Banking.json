@@ -1,0 +1,143 @@
+{
+  "userSays": [
+    {
+      "id": "c3516e20-fe9f-4033-87cb-71b586a44662",
+      "data": [
+        {
+          "text": "1",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "bb5e7791-c391-45ce-bb8f-e6806e46a394",
+      "data": [
+        {
+          "text": "Teach",
+          "alias": "Request_type",
+          "meta": "@Request_type",
+          "userDefined": true
+        },
+        {
+          "text": " me "
+        },
+        {
+          "text": "Banking!",
+          "alias": "topic",
+          "meta": "@topic",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f47c7235-8d62-4756-bcf7-507c074f28a1",
+      "data": [
+        {
+          "text": "Details",
+          "alias": "Request_type",
+          "meta": "@Request_type",
+          "userDefined": true
+        },
+        {
+          "text": " about "
+        },
+        {
+          "text": "Banking",
+          "alias": "topic",
+          "meta": "@topic",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ae42054d-1aa9-45f0-996b-2cb2a445bab8",
+      "data": [
+        {
+          "text": "Explain",
+          "alias": "Request_type",
+          "meta": "@Request_type",
+          "userDefined": true
+        },
+        {
+          "text": " about "
+        },
+        {
+          "text": "banking",
+          "alias": "topic",
+          "meta": "@topic",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "bfa3927f-936f-4b74-bbe5-545e9d4e792d",
+  "name": "Banking",
+  "auto": true,
+  "contexts": [
+    "Continues_banking"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Plastic_cards",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@topic",
+          "name": "topic",
+          "value": "$topic",
+          "isList": false
+        },
+        {
+          "required": false,
+          "dataType": "@Request_type",
+          "name": "Request_type",
+          "value": "$Request_type",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ya, I can discuss with you  about $topic . A bank is a business; banks sell financial services such as Vehicle loans, home mortgage loans, business loans, checking accounts, credit card services, certificates of deposit, and individual retirement accounts etc...    Some people go to banks in search of a safe place to keep their money. Others are seeking to borrow money to buy a house or a car, start a business, expand a farm, pay for college, or do other things that require borrowing money.\n\nWhere do banks get the money to lend? \nThey get it from people who open accounts. Banks act as go-betweens for people who save and people who want to borrow. If savers didn’t put their money in banks, the banks would have little or no money to lend. There are different type of banking such as Saving bank,Commercial bank, industrial bank. In order to have the banking with any banks, you need to open the account with that bank agents. There are many accounts such Saving account , Credit card account, prepaid card account, etc...Each account can be accessed through different form of action like Manual Cash deposit, Manual Cash withdrawal and also each account associated with plastic cards (in another term plastic money). Before you proceed to open an account, the bank agent would needed KYC (Know your customer) docs which can be your driving license, government id \u0026 personal details.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              I am good at explaining you more about plastic cards and how it is functioning in the current world.        Do want to proceed?",
+            "A bank is a business; banks sell financial services such as Vehicle loans, home mortgage loans, business loans, checking accounts, credit card services, certificates of deposit, and individual retirement accounts etc...    Some people go to banks in search of a safe place to keep their money. Others are seeking to borrow money to buy a house or a car, start a business, expand a farm, pay for college, or do other things that require borrowing money.\n\nWhere do banks get the money to lend? \nThey get it from people who open accounts. Banks act as go-betweens for people who save and people who want to borrow. If savers didn’t put their money in banks, the banks would have little or no money to lend. There are different type of banking such as Saving bank,Commercial bank, industrial bank. In order to have the banking with any banks, you need to open the account with that bank agents. There are many accounts such Saving account , Credit card account, prepaid card account, etc...Each account can be accessed through different form of action like Manual Cash deposit, Manual Cash withdrawal and also each account associated with plastic cards (in another term plastic money). Before you proceed to open an account, the bank agent would needed KYC (Know your customer) docs which can be your driving license, government id \u0026 personal details.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              I am good at explaining you more about plastic cards and how it is functioning in the current world.        Do want to proceed?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "skype": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

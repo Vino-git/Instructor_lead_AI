@@ -1,0 +1,33 @@
+{
+  "id": "985fd18c-7cd3-427c-95cb-bd1c20cf33c1",
+  "name": "Response_type",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Yes",
+      "synonyms": [
+        "Yes"
+      ]
+    },
+    {
+      "value": "Proceed",
+      "synonyms": [
+        "Proceed"
+      ]
+    },
+    {
+      "value": "Sure",
+      "synonyms": [
+        "Sure"
+      ]
+    },
+    {
+      "value": "Continue",
+      "synonyms": [
+        "Continue"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

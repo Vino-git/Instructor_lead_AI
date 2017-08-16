@@ -1,0 +1,67 @@
+{
+  "userSays": [
+    {
+      "id": "4f310c68-c6a5-4450-91bb-b6c877dc6419",
+      "data": [
+        {
+          "text": "doubt",
+          "alias": "Request_type",
+          "meta": "@Request_type",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "648d9495-d72d-48b1-b1c0-e66ce3616f37",
+      "data": [
+        {
+          "text": "question",
+          "alias": "Request_type",
+          "meta": "@Request_type",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ff05a8b0-efe2-4cbf-8d2f-4839147ec2cc",
+  "name": "interrupt_event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Request_type",
+          "name": "Request_type",
+          "value": "$Request_type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Yes, please raise your query!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "skype": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "question"
+    }
+  ]
+}

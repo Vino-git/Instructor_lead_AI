@@ -1,0 +1,214 @@
+{
+  "userSays": [
+    {
+      "id": "dab1f4d7-e4db-4663-aadc-9c8245348f22",
+      "data": [
+        {
+          "text": "details",
+          "alias": "Request_type",
+          "meta": "@Request_type",
+          "userDefined": false
+        },
+        {
+          "text": " about "
+        },
+        {
+          "text": "plastic cards",
+          "alias": "topic",
+          "meta": "@topic",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e3974e9f-4827-428f-ab07-3431c4d051c2",
+      "data": [
+        {
+          "text": "What",
+          "alias": "Request_type",
+          "meta": "@Request_type",
+          "userDefined": true
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "plastic cards",
+          "alias": "topic",
+          "meta": "@topic",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d96517cd-ebd9-48c9-95b3-b5210e6d8878",
+      "data": [
+        {
+          "text": "2",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f9dd63a0-88c8-4c18-83f6-4e3cac61fdc7",
+      "data": [
+        {
+          "text": "Explain me about "
+        },
+        {
+          "text": "plastic cards",
+          "alias": "topic",
+          "meta": "@topic",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c96b0406-889e-4692-aaf0-4ceb388aa4db",
+      "data": [
+        {
+          "text": "Explain",
+          "alias": "Request_type",
+          "meta": "@Request_type",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "plastic cards",
+          "alias": "topic",
+          "meta": "@topic",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f048834f-0699-46d3-91c9-c43a4a3257c9",
+      "data": [
+        {
+          "text": "correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "529b3fbc-b382-4ad8-ae8f-e665770cbdc9",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "214ce598-dd0b-48c1-9069-e19c9fd12678",
+      "data": [
+        {
+          "text": "more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9aa57008-a09e-467e-b273-8b401c3fc52e",
+      "data": [
+        {
+          "text": "Proceed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea9b619f-697e-4978-8b15-82a913798bea",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d57be91c-b144-4426-ba45-0e34814d6a84",
+  "name": "Plastic_cards",
+  "auto": true,
+  "contexts": [
+    "Plastic_cards"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "financial_service",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Request_type",
+          "name": "Request_type",
+          "value": "$Request_type",
+          "isList": false
+        },
+        {
+          "required": false,
+          "dataType": "@topic",
+          "name": "topic",
+          "value": "$topic",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Plastic cards is very good source of handling your money in secure way. Nowadays, almost all the bank provide the plastic cards to their customer, in terms of Debit card, credit card, prepaid card. \n\nHow the plastic card transferred as plastic money?    the transform has happened with help financial services. The financial services are such as VISA, MasterCard, AMex,etc.. \n\nShall i proceed explaining about financial services?",
+            "$topic is very good source of handling your money in secure way. Nowadays, almost all the bank provide the plastic cards to their customer, in terms of Debit card, credit card, prepaid card.\n\nHow the plastic card transferred as plastic money?    the transform has happened with help financial services. The financial services are such as VISA, MasterCard, AMex,etc.. \n\nShall i proceed explaining about financial services?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "skype": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

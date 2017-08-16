@@ -1,0 +1,51 @@
+{
+  "id": "fac8e1df-a775-4d29-981b-05c47a79fb63",
+  "name": "Request_type",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Teach",
+      "synonyms": [
+        "Teach"
+      ]
+    },
+    {
+      "value": "Guide",
+      "synonyms": [
+        "Guide"
+      ]
+    },
+    {
+      "value": "Walk thorugh",
+      "synonyms": [
+        "Walk thorugh"
+      ]
+    },
+    {
+      "value": "Explain",
+      "synonyms": [
+        "Explain"
+      ]
+    },
+    {
+      "value": "Details",
+      "synonyms": [
+        "Details"
+      ]
+    },
+    {
+      "value": "What",
+      "synonyms": [
+        "What"
+      ]
+    },
+    {
+      "value": "Discuss",
+      "synonyms": [
+        "Discuss"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

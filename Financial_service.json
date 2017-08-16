@@ -1,0 +1,205 @@
+{
+  "userSays": [
+    {
+      "id": "736c7172-2a4d-4718-8140-1ef3711571c2",
+      "data": [
+        {
+          "text": "what is "
+        },
+        {
+          "text": "financial service",
+          "alias": "topic",
+          "meta": "@topic",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a4742e8-85b7-42a5-ab6f-a6eadd0fbe98",
+      "data": [
+        {
+          "text": "3",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "50a14ecc-3ba2-4879-a0fb-79b2024d9c70",
+      "data": [
+        {
+          "text": "teach",
+          "alias": "Request_type",
+          "meta": "@Request_type",
+          "userDefined": false
+        },
+        {
+          "text": " me "
+        },
+        {
+          "text": "financial service",
+          "alias": "topic",
+          "meta": "@topic",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7a0db593-b604-4668-87ce-056e176ea3ce",
+      "data": [
+        {
+          "text": "sure",
+          "alias": "Response_type",
+          "meta": "@Response_type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9301eacc-e13e-4fd6-bed5-ff2886cbae6d",
+      "data": [
+        {
+          "text": "plesase"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9fcb7cfb-a0ad-41b7-b414-f01bf8eebf69",
+      "data": [
+        {
+          "text": "yes",
+          "alias": "Response_type",
+          "meta": "@Response_type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3a8fd2eb-d4bb-4cc7-a730-6351fdd6006d",
+      "data": [
+        {
+          "text": "yes",
+          "alias": "Response_type",
+          "meta": "@Response_type",
+          "userDefined": false
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7441787e-1d71-4b7d-aa42-3f879be42202",
+      "data": [
+        {
+          "text": "process"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e22a4429-3c23-4acc-82b9-b3b8b8ef87a3",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2eda7702-b217-4d54-b655-f3fd642db291",
+      "data": [
+        {
+          "text": "Explain",
+          "alias": "Request_type",
+          "meta": "@Request_type",
+          "userDefined": false
+        },
+        {
+          "text": " me about "
+        },
+        {
+          "text": "financial services",
+          "alias": "topic",
+          "meta": "@topic",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6a342c1d-5733-45c2-88d8-60fd36bf01cc",
+  "name": "Financial_service",
+  "auto": true,
+  "contexts": [
+    "financial_service"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Request_type",
+          "name": "Request_type",
+          "value": "$Request_type",
+          "isList": false
+        },
+        {
+          "dataType": "@Response_type",
+          "name": "Response_type",
+          "value": "$Response_type",
+          "isList": false
+        },
+        {
+          "dataType": "@topic",
+          "name": "topic",
+          "value": "$topic",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Financial services are the economic services provided by the finance industry, which encompasses a broad range of businesses that manage money, including credit unions, banks, credit-card companies, insurance companies, accountancy companies, consumer-finance companies, stock brokerages, investment funds, individual managers and some government-sponsored enterprises"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
